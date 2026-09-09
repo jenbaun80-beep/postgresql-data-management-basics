@@ -1,0 +1,2 @@
+ALTER TABLE supplies
+ALTER COLUMN supply_name SET NOT NULL;
