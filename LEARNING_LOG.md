@@ -109,3 +109,40 @@ This log tracks what I practiced, what I practiced it, and what I learned while 
 
 **Key relationship:** 'supplies.department_id' -> 'departments.department_id'
 **Important lesson:** Migrate and verify existing data before removing the old structure.
+
+## Milestone 15 - JOIN Queries
+
+**What I did:** Used 'JOIN' and 'LEFT JOIN' to combine information from the 'supplies' and 'departments' tables. 
+**Why:** After normalizing the database, 'supplies' stores 'department_id' instead of repeating department names. A JOIN lets me retrieve the department name when I need it. 
+**What I learned:** 'JOIN' combines related tables, while 'ON' tells PostgreSQL how the rows match. I used table aliases ('s' and 'd') to make queries easier to read. I also learned that an 'INNER JOIN' returns matching rows, while a 'LEFT JOIN' keeps all rows from the left table.
+**Key relationship:** 's.department_id = d.department_id'
+**Data-quality check:** A 'LEFT JOIN' combined with 'WHERE d.department_id IS NULL' can identity supplies without a matching department. My check returned 0 rows, confirming that every supply currently has a valid department relationship.
+
+## Milestone 16 - Aggregate Queries
+
+**What I did:**
+**Why:**
+**What I learned:**
+
+## Milestone 17 -
+
+**What I did:**
+**Why:**
+**What I learned:**
+
+## Milestone 18 -
+
+**What I did:**
+**Why:**
+**What I learned:**
+
+## Milestone 19 -
+
+**What I did:**
+**Why:**
+**What I learned:**
+
+## Milestone 20 - 
+**What I did:**
+**Why:**
+**What I learned:**
