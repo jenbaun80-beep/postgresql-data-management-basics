@@ -4,8 +4,8 @@ This log tracks what I practiced, what I practiced it, and what I learned while 
 
 ## Current Status
 
-- Milesstone 16: Complete
-- Next: Milestone 17 - GROUP BY and HAVING
+- Milesstone 17: Complete
+- Next: Milestone 18 - Views
 - Project progress: 17 of 20 miles complete
 
 ## Milestone 1 - Create the Supplies Table
@@ -134,13 +134,17 @@ This log tracks what I practiced, what I practiced it, and what I learned while 
 
 **Important lesson:** Multiple aggregate functions can be placed in the same 'SELECT' statement. Each aggregate becomes a separate result column, while PostgreSQL can still return one summary row for the entire table.
 
-## Milestone 17 -
+## Milestone 17 - GROUP BY and HAVING
 
-**What I did:**
-**Why:**
-**What I learned:**
+**What I did:** Used 'GROUP BY' with aggregate functions to summarize inventory data by department. I also combined 'JOIN" with 'GROUP BY', filteres grouped results with 'HAVING', and sorted results with 'ORDER BY'.
+**Why:** I wanted to answer questions about groups of inventory records, such as the total, average, and number of supplies for each department. 
+**What I learned:** 'GROUP BY' creates groups of related rows so aggregate functions can calculate a results for each group. 'HAVING' filters groups after they are created, while 'ORDER BY' sorts ther results.
 
-## Milestone 18 -
+**Key distinction:**
+- HAVING -> filters/removes group
+- ORDER BY -> sorts/rearranges results
+
+## Milestone 18 - 
 
 **What I did:**
 **Why:**
