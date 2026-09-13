@@ -4,9 +4,9 @@ This log tracks what I practiced, what I practiced it, and what I learned while 
 
 ## Current Status
 
-- Milesstone 14: Complete
-- Next: Milestone 15 - JOIN Queries
-- Project progress: 14 of 20 miles complete
+- Milesstone 16: Complete
+- Next: Milestone 17 - GROUP BY and HAVING
+- Project progress: 17 of 20 miles complete
 
 ## Milestone 1 - Create the Supplies Table
 
@@ -120,9 +120,19 @@ This log tracks what I practiced, what I practiced it, and what I learned while 
 
 ## Milestone 16 - Aggregate Queries
 
-**What I did:**
-**Why:**
-**What I learned:**
+**What I did:** Used aggregate functions to summarize inventory  data. I practices 'COUNT()', 'SUM()', 'AVG()', 'MIN()', and 'MAX()'. I also used 'WHERE' with an aggregate, added readable column aliases with 'AS', and used 'ROUND()' to control decimal places. 
+**Why:** Aggregate functions let me turn multiple inventory records into useful summary information, such as the total number of supplies, total inventory quantity, average quantity, and the lowest and highest quantities. 
+**What I learned:** Aggregate funtions summarize many rows into calculated results, 'COUNT()' count records, 'SUM()' add values, 'AVG()' calculates an average, 'MIN()' finds the smallest value, and 'MAX()' finds the largest value. I also learned that 'WHERE' filters the rows before the aggregate calculation is performed. 
+
+**Results from my practice data:**
+- Total supply records: 7
+- Total inventory quantity: 1,825
+- Average quantity: 260.71
+- Lowest quantity: 50
+- Highest quantity: 800
+- ER total quantity: 600
+
+**Important lesson:** Multiple aggregate functions can be placed in the same 'SELECT' statement. Each aggregate becomes a separate result column, while PostgreSQL can still return one summary row for the entire table.
 
 ## Milestone 17 -
 
@@ -146,3 +156,4 @@ This log tracks what I practiced, what I practiced it, and what I learned while 
 **What I did:**
 **Why:**
 **What I learned:**
+
