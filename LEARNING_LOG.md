@@ -13,7 +13,7 @@ This log tracks what I practiced, what I practiced, and what I learned while bui
 **Why:** I needed a basic table where inventory records could be stored. 
 **What I learned:** A database table organizes related information into columns and rows. Each column represents a type of information, while each row represents one record.
 
-## Mileston 2 - Insert Inventory Data
+## Milestone 2 - Insert Inventory Data
 
 **What I did:** Added sample clinic supply records to the `supplies` table using "INSERT INTO'.
 **Why:** A table needs records before I can practice retrieving, filtering, and analyzing data.
