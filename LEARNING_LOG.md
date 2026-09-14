@@ -1,6 +1,6 @@
 # PostgreSQL Data Management Basics - Learning Log
 
-This log tracks what I practiced, what I practiced, and what I learned while building this project.
+This log tracks what I practiced and what I learned while building this project.
 
 ## Current Status
 
