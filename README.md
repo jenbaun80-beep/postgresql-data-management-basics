@@ -99,6 +99,3 @@ postgresql-data-management-basics/
 ├── LEARNING_LOG.md
 ├── README.md
 └── .gitignore
-
-
-
