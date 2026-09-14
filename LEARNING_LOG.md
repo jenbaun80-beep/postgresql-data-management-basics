@@ -5,7 +5,7 @@ This log tracks what I practiced, what I practiced, and what I learned while bui
 ## Current Status
 
 - Milestone 20: Complete
-- Project progress: 20 of 20 milestone complete
+- Project progress: 20 of 20 milestones complete
 
 ## Milestone 1 - Create the Supplies Table
 
@@ -65,15 +65,15 @@ This log tracks what I practiced, what I practiced, and what I learned while bui
 ## Milestone 10 - Create an Index
 
 **What I did:** Created an index named `idx_supplies_department` on the `department` column.
-**Why:** I wanted to learn how PostfreSQL can make searches and filtering more efficient as a table becomes larger. 
+**Why:** I wanted to learn how PostgreSQL can make searches and filtering more efficient as a table becomes larger. 
 **What I learned:** An `INDEX` helps PostgreSQL locate rows more efficiently instead of always scanning an entire table. An index has more value as the amount of data grows. 
 **Index used:** `idx_supplies_department`
 
-## Mileston 11 - Add UNIQUE Constraint
+## Milestone 11 - Add UNIQUE Constraint
 
 **What I did:** Added a `UNIQUE` constraint to prevent the same supply from being entered more than once for the same department. 
 **Why:** The inventory should not contain duplicate records for the same supply within the same department. 
-**What I learned:** A `UNIQUE` constraint prevents duplkicate combinations of values. Multiple departments can have the same supply, but the same supply-and-department combination should appear only once. 
+**What I learned:** A `UNIQUE` constraint prevents duplicate combinations of values. Multiple departments can have the same supply, but the same supply-and-department combination should appear only once. 
 **Original rule:** (supply_name, department)
 
 ## Milestone 12 - Require a Supply Name
@@ -94,7 +94,7 @@ This log tracks what I practiced, what I practiced, and what I learned while bui
 
 **What I did:** Created a separate  `departments` table and replaced repeated department name in `supplies` with `department_id`.
 **why:** Storing department names repeatedly creates unnecessary duplication. A separate departments table gives each department one ID and one authoritative name. 
-**What I learned:** Normalization separteds related information into tabels and connects them through keys. A `PRIMARY KEY` identifies a department, while a `FOREIGN KEY` lets `supplies` reference that department.
+**What I learned:** Normalization separate related information into tables and connects them through keys. A `PRIMARY KEY` identifies a department, while a `FOREIGN KEY` lets `supplies` reference that department.
 
 **Migration process:**
 1. Create the `departments` table.
@@ -135,9 +135,9 @@ This log tracks what I practiced, what I practiced, and what I learned while bui
 
 ## Milestone 17 - GROUP BY and HAVING
 
-**What I did:** Used `GROUP BY` with aggregate functions to summarize inventory data by department. I also combined `JOIN` with `GROUP BY`, filteres grouped results with `HAVING`, and sorted results with 'ORDER BY'.
+**What I did:** Used `GROUP BY` with aggregate functions to summarize inventory data by department. I also combined `JOIN` with `GROUP BY`, filtered grouped results with `HAVING`, and sorted results with 'ORDER BY'.
 **Why:** I wanted to answer questions about groups of inventory records, such as the total, average, and number of supplies for each department. 
-**What I learned:** 'GROUP BY' creates groups of related rows so aggregate functions can calculate a results for each group. `HAVING` filters groups after they are created, while 'ORDER BY' sorts ther results.
+**What I learned:** 'GROUP BY' creates groups of related rows so aggregate functions can calculate a result for each group. `HAVING` filters groups after they are created, while 'ORDER BY' sorts the results.
 
 **Key distinction:**
 - `HAVING` -> filters/removes group
@@ -149,7 +149,7 @@ This log tracks what I practiced, what I practiced, and what I learned while bui
 
 **Why:** To learn how to combine related tables and produce useful inventory reports from relational data.
 
-**What I learned:** Learned how `JOIN` and `ON` connect related tables, how table aliases improve readability, and how JOINs work with `WHERE`, `GROUP BY`, `HAVING`, `SUM()`, `COUNT()`, and `ORDER BY`. Also learned that LEFT JOIN keeps all rows from the left table even when there is no matching row.
+**What I learned:** Learned how `JOIN` and `ON` connect related tables, how table aliases improve readability, and how JOINs work with `WHERE`, `GROUP BY`, `HAVING`, `SUM()`, `COUNT()`, and `ORDER BY`. Also, I learned that LEFT JOIN keeps all rows from the left table even when there is no matching row.
 
 ## Milestone 19 - SQL Subqueries
 
