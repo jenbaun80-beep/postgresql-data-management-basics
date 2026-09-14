@@ -69,8 +69,6 @@ ON s.department_id = d.department_id
 WHERE s.quantity > 100
 GROUP BY d.department_name
 HAVING SUM(s.quantity) > 500;
-ER          550
-Laboratory  925
 
 -- Complete analytical JOIN:
 -- total stock by department,
@@ -84,8 +82,6 @@ ON s.department_id = d.department_id
 GROUP BY d.department_name
 HAVING SUM(s.quantity) > 500
 ORDER BY total_stock DESC;
-Laboratory  925
-ER          600
 
 -- LEFT JOIN keeps all departments,
 -- even if they have no supplies.
