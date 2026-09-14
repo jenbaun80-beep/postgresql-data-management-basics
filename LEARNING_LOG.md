@@ -173,8 +173,8 @@ This log tracks what I practiced, what I practiced, and what I learned while bui
 - `CASE` makes decisions based on conditions.
 - A correlated subquery can compare each row to a related group of rows.
 
-## Milestone 20 - 
-**What I did:**
-**Why:**
-**What I learned:**
+## Milestone 20 - SQL Views
 
+**What I did:** Created and queried PostgreSQL views for detailed inventory data and department-level stock summaries.
+**Why:** To simplify repeated queries and make commonly used inventory information easier to retrieve.
+**What I learned:** A view stores query logic rather than a separate copy of the data, so it reflects changes in the underlying tables when queried.
