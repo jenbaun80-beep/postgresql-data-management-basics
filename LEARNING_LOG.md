@@ -4,7 +4,7 @@ This log tracks what I practiced, what I practiced, and what I learned while bui
 
 ## Current Status
 
-- Milesstone 20: Complete
+- Milestone 20: Complete
 - Project progress: 20 of 20 milestone complete
 
 ## Milestone 1 - Create the Supplies Table
