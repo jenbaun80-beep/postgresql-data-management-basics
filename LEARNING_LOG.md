@@ -1,6 +1,6 @@
 # PostgreSQL Data Management Basics - Learning Log
 
-This log tracks what I practiced, what I practiced it, and what I learned while building this project. 
+This log tracks what I practiced, what I practiced, and what I learned while building this project.
 
 ## Current Status
 
@@ -28,8 +28,8 @@ This log tracks what I practiced, what I practiced it, and what I learned while 
 
 ## Milestone 4 - Filter Inventory Data
 
-**What I did:* Used `WHERE` to retrieve only inventory records that matched specific conditions. 
-**Why:** I wanted to answer more specific questions instead of displaying every record in tbale. 
+**What I did:** Used `WHERE` to retrieve only inventory records that matched specific conditions.
+**Why:** I wanted to answer more specific questions instead of displaying every record in tbale.
 **What I learned:** `WHERE` filters row based on a condition. This lets me ask PostgreSQL questions such as which supplies belong to a particular department or meet a certain quantity condition. 
 
 ## Milestone 5 - Update Inventory Data

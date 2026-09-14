@@ -4,7 +4,7 @@ SELECT s.supply_name,
        d.department_name
 FROM supplies s
 JOIN departments d
-    ON s.department_id = d.department_id
+    ON s.department_id = d.department_id;
 
 SELECT s.supply_name,
        d.department_name

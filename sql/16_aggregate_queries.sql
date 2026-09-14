@@ -22,7 +22,7 @@ SELECT SUM(quantity) AS er_total_quantity
 FROM supplies
 WHERE department_id = 1;
 
-SELECT COUNT(*) AS total_supplies
+SELECT COUNT(*) AS total_supplies,
         SUM(quantity) AS total_quantity,
         ROUND(AVG(quantity), 2) AS average_quantity,
         MIN(quantity) AS lowest_quantity,

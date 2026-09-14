@@ -2,7 +2,7 @@
 
 CREATE TABLE Departments (
     department_id SERIAL PRIMARY KEY,
-    department_name VARCHAR(100) UINIQUE NOT NULL
+    department_name VARCHAR(100) UNIQUE NOT NULL
 );
 
 INSERT INTO departments (department_name)
