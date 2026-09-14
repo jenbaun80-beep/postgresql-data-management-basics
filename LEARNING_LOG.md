@@ -4,9 +4,9 @@ This log tracks what I practiced, what I practiced it, and what I learned while 
 
 ## Current Status
 
-- Milesstone 18: Complete
-- Next: Milestone 19 - Views
-- Project progress: 18 of 20 miles complete
+- Milesstone 19: Complete
+- Next: Milestone 20 - Views
+- Project progress: 19 of 20 miles complete
 
 ## Milestone 1 - Create the Supplies Table
 
@@ -152,11 +152,27 @@ This log tracks what I practiced, what I practiced it, and what I learned while 
 
 **What I learned:** Learned how `JOIN` and `ON` connect related tables, how table aliases improve readability, and how JOINs work with `WHERE`, `GROUP BY`, `HAVING`, `SUM()`, `COUNT()`, and `ORDER BY`. Also learned that LEFT JOIN keeps all rows from the left table even when there is no matching row.
 
-## Milestone 19 -
+## Milestone 19 - SQL Subqueries
 
 **What I did:**
+- Practiced subqueries using `AVG()` and `MAX()`.
+- Used `IN` and `NOT IN` with subqueries.
+- Practiced `EXISTS` and correlated subqueries.
+- Learned the difference between `ANY` and `ALL`.
+- Used scalar subqueries to return a single value.
+- Used `CASE` statements to classify inventory.
+- Compared supplies against their department's average quantity.
+
 **Why:**
+- To learn how SQL can use the results of one query inside another query.
+- To practice comparing individual records against overall and department-level results.
+
 **What I learned:**
+- `ANY` means at least one value.
+- `ALL` means every value.
+- A scalar subquery returns one value.
+- `CASE` makes decisions based on conditions.
+- A correlated subquery can compare each row to a related group of rows.
 
 ## Milestone 20 - 
 **What I did:**
